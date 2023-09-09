@@ -1,0 +1,44 @@
+@font-face {
+    font-family: titulo;
+    src: url("fuentes/cocogoose.ttf");
+}
+@font-face {
+  font-family: texto;
+  src: url("fuentes/Cocogoose\ Pro\ Light-trial.ttf");
+}  
+
+body{
+    background-image: url(dogs.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    font-family: titulo, sans-serif;
+    text-align: center;
+    font-size: 70px;
+    color: white; 
+}
+
+h1{
+    margin: 10px;
+}
+
+#button{
+    font-family: texto, sans-serif; 
+    font-weight: 700;
+    letter-spacing: 2px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    padding: 10px;
+  }
+
+.picture{
+height: 350px;
+border-radius: 30px;
+border: 5px solid white;
+}
+
+body.bkgrChange{
+    background-image: url(dogs2.jpg);
+}
